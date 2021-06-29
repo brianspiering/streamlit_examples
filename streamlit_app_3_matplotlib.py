@@ -15,7 +15,7 @@ st.write(f"Trend = {trend} \n\n Noise = {noise}")
 
 intial_value = 1
 n_series = 10 
-time_series = np.cumprod(intial_value + np.random.normal(rate, noise, (100, n_series)), 
+time_series = np.cumprod(intial_value + np.random.normal(trend, noise, (100, n_series)), 
                          axis=0)
 
 fig, ax = plt.subplots()
