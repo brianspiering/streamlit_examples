@@ -7,4 +7,4 @@ Live Apps:
 - [Matplotlib](https://share.streamlit.io/brianspiering/streamlit_examples/main/streamlit_app_3_matplotlib.py)
 
 
-Inspired by [calmcode.io](https://calmcode.io/streamlit)
+Inspired by [calmcode.io](https://calmcode.io/streamlit/hello-world.html)
