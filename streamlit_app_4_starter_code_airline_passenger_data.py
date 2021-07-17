@@ -19,9 +19,8 @@ url = "https://raw.githubusercontent.com/brianspiering/datasets/main/airline_pas
 df = pd.read_csv(url)
 
 # TODO: Create sliders for start index and number of months
-start_index = st.slider('Start index',  min_value=0, max_value=df.shape[0], step=1)
-n_months  = st.slider('Number of months',  min_value=2,  max_value=df.shape[0]-start_index, step=1)
-
+start_index = None 
+n_months  = None
 
 # Select just the rows and single column to plot
 data = df.iloc[start_index:start_index+n_months, 2]]
