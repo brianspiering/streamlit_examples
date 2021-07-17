@@ -29,7 +29,7 @@ countries = st.sidebar.multiselect(
     df['name'].unique()
 )
 
-varname = st.sidebar.selectbox(
+price_type = st.sidebar.selectbox(
     "Select Column",
     ("local_price", "dollar_price")
 )
@@ -40,7 +40,7 @@ for name in countries:
     # Select row
     current_df = subset_df.loc[lambda d: d['name'] == name]
     # Select column
-    current_df = current_df[varname]
+    current_df = current_df[price_type]
     # Plot
     st.line_chart(current_df)
 
