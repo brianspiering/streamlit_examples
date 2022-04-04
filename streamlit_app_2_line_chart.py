@@ -6,7 +6,7 @@ import streamlit as st
 import numpy as np
 
 st.title("Simulation")
-st.write("'Let's do it live! We have to realize that computers are simulators and then figure out what to simulate.' \n\n — Alan Kay")
+st.write("'We have to realize that computers are simulators and then figure out what to simulate.' \n\n — Alan Kay")
 
 trend = st.slider('Trend',  min_value=0.001, max_value=0.10, step=0.01)
 noise = st.slider('Noise',min_value=0.01,  max_value=0.10, step=0.01)
